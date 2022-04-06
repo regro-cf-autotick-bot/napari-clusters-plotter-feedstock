@@ -30,6 +30,13 @@ requirements:
     - python >=3.6,<3.10
     - scikit-learn
     - umap-learn
+    - qtpy
+    - dask-core
+    - napari
+    - finesse
+    - pytest
+    - magicgui
+    - scikit-image
 
 test:
   imports:
