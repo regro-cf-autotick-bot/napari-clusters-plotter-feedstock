@@ -1,5 +1,5 @@
 {% set name = "napari-clusters-plotter" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-clusters-plotter-{{ version }}.tar.gz
-  sha256: 74f517a90e49cb59b6c8ad301760f10edca0237b89dcaead71dc28caabdc28c5
+  sha256: 2398808975dd0a33222b26303d56f34a483693710d7ae1644786670576764e41
 
 build:
   noarch: python
@@ -30,6 +30,13 @@ requirements:
     - python >=3.6,<3.10
     - scikit-learn
     - umap-learn
+    - qtpy
+    - dask-core
+    - napari
+    - finesse
+    - pytest
+    - magicgui
+    - scikit-image
 
 test:
   imports:
