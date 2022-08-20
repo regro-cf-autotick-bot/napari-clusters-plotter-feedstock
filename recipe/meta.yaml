@@ -27,7 +27,7 @@ requirements:
     - pandas
     - pyclesperanto-prototype
     - pyopencl
-    - python >=3.6,<3.10
+    - python >=3.6
     - scikit-learn
     - umap-learn
     - qtpy
