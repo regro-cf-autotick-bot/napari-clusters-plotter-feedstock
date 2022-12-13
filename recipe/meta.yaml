@@ -25,8 +25,6 @@ requirements:
     - napari-tools-menu
     - numpy
     - pandas
-    - pyclesperanto-prototype
-    - pyopencl
     - python >=3.6
     - scikit-learn
     - umap-learn
