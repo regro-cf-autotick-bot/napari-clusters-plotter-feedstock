@@ -35,6 +35,7 @@ requirements:
     - pytest
     - magicgui
     - scikit-image
+    - superqt
 
 test:
   imports:
