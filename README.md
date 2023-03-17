@@ -1,11 +1,11 @@
-About napari-clusters-plotter
-=============================
+About napari-clusters-plotter-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-clusters-plotter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/BiAPoL/napari-clusters-plotter
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-clusters-plotter-feedstock/blob/main/LICENSE.txt)
 
 Summary: A plugin to use with napari for clustering objects according to their properties
 
