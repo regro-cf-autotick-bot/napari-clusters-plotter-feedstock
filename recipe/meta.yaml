@@ -23,7 +23,7 @@ requirements:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.2.0
     - napari-tools-menu
-    - numpy
+    - numpy >=1.21,<=1.23.5
     - pandas
     - python >=3.6
     - scikit-learn
@@ -32,7 +32,6 @@ requirements:
     - dask-core
     - napari
     - finesse
-    - pytest
     - magicgui
     - scikit-image
     - superqt
@@ -42,7 +41,7 @@ test:
     - napari_clusters_plotter
   commands:
     - pip list
-    # - pip check
+    - pip check
   requires:
     - oclgrind
     - pip
