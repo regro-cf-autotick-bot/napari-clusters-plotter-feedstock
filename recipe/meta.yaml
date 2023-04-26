@@ -1,5 +1,5 @@
 {% set name = "napari-clusters-plotter" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-clusters-plotter-{{ version }}.tar.gz
-  sha256: a883931bac88b78c5369268290b4c94f2b0a869ac518b074f2635c558f76dec6
+  sha256: d26e3933b80b30004398fe73929c0258a110244b4a14dd348be006e1ae22343d
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.2.0
     - napari-tools-menu
-    - numpy
+    - numpy >=1.21,<=1.23.5
     - pandas
     - python >=3.6
     - scikit-learn
@@ -32,7 +32,6 @@ requirements:
     - dask-core
     - napari
     - finesse
-    - pytest
     - magicgui
     - scikit-image
     - superqt
@@ -42,7 +41,7 @@ test:
     - napari_clusters_plotter
   commands:
     - pip list
-    # - pip check
+    - pip check
   requires:
     - oclgrind
     - pip
