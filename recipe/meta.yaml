@@ -1,5 +1,5 @@
 {% set name = "napari-clusters-plotter" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-clusters-plotter-{{ version }}.tar.gz
-  sha256: 39e44bdee22eecbe4eea095d13467ece736bb2254ffe1134d0704ac877832c3f
+  sha256: e6a7e7e120c53ed4c4f282e4518951d3b370acf2c23b5ca8ebfec525b7d74174
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - hdbscan
     - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops >=0.2.0
+    - napari-skimage-regionprops >=0.3.1
     - napari-tools-menu
     - numpy >=1.21,<=1.23.5
     - pandas
@@ -31,10 +31,11 @@ requirements:
     - qtpy
     - dask-core
     - napari
-    - finesse
     - magicgui
     - scikit-image
     - superqt
+    - matplotlib
+    - joblib
 
 test:
   imports:
