@@ -31,7 +31,6 @@ requirements:
     - qtpy
     - dask-core
     - napari
-    - finesse
     - magicgui
     - scikit-image
     - superqt
