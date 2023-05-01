@@ -21,7 +21,7 @@ requirements:
   run:
     - hdbscan
     - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops >=0.2.0
+    - napari-skimage-regionprops >=0.3.1
     - napari-tools-menu
     - numpy >=1.21,<=1.23.5
     - pandas
@@ -34,6 +34,8 @@ requirements:
     - magicgui
     - scikit-image
     - superqt
+    - matplotlib
+    - joblib
 
 test:
   imports:
