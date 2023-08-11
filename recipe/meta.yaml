@@ -1,5 +1,5 @@
 {% set name = "napari-clusters-plotter" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-clusters-plotter-{{ version }}.tar.gz
-  sha256: 6cc61fe621b1becc0efa50a2f40f197c87ae589d6881c26943fa797592bfbd4a
+  sha256: 3947e0c3e2335046526e6b92159c013e3e7b498eecd5b766cf1cbdd0239776df
 
 build:
   noarch: python
