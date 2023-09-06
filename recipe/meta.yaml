@@ -16,27 +16,28 @@ build:
 
 requirements:
   host:
-    - pip
-    - python >=3.6
     - cython >=0.27,<3  # Testing
+    - pip
+    - python >=3.7
   run:
+    - dask-core
     - hdbscan
+    # - joblib  # not imported
+    - magicgui
+    - matplotlib
+    - napari
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.3.1
     - napari-tools-menu
     - numpy >=1.21,<=1.23.5
     - pandas
-    - python >=3.6
-    - scikit-learn
-    - umap-learn
+    - python >=3.7
     - qtpy
-    - dask-core
-    - napari
-    - magicgui
     - scikit-image
+    - scikit-learn
+    - scipy
     - superqt
-    - matplotlib
-    - joblib
+    - umap-learn
 
 test:
   imports:
@@ -49,14 +50,15 @@ test:
     - pip
 
 about:
-  home: https://github.com/BiAPoL/napari-clusters-plotter
+  home: https://pypi.org/project/napari-clusters-plotter
   summary: A plugin to use with napari for clustering objects according to their properties
   license: BSD-3-Clause
   license_file: LICENSE
+  dev_url: https://github.com/BiAPoL/napari-clusters-plotter
 
 extra:
   recipe-maintainers:
     - goanpeca
-    - jaimergp
     - haesleinhuepf
+    - jaimergp
     - lazigu
