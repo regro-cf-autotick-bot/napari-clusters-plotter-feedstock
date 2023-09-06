@@ -24,7 +24,7 @@ requirements:
     - hdbscan
     # - joblib  # not imported
     - magicgui
-    - matplotlib
+    - matplotlib-base
     - napari
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.3.1
