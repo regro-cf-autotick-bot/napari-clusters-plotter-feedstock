@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - cython >=0.27,<3  # hdbscan 0.8.33 has requirement cython<3,>=0.27
     - pip
     - python >=3.7
   run:
+    - cython >=0.27,<3  # hdbscan 0.8.33 has requirement cython<3,>=0.27
     - dask-core
     - hdbscan
     # - joblib  # not imported
