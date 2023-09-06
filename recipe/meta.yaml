@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - cython >=0.27,<3  # Testing
   run:
     - hdbscan
     - napari-plugin-engine >=0.1.4
