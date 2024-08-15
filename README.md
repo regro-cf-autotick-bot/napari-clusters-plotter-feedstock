@@ -148,5 +148,7 @@ Feedstock Maintainers
 * [@goanpeca](https://github.com/goanpeca/)
 * [@haesleinhuepf](https://github.com/haesleinhuepf/)
 * [@jaimergp](https://github.com/jaimergp/)
+* [@jo-mueller](https://github.com/jo-mueller/)
 * [@lazigu](https://github.com/lazigu/)
+* [@zoccoler](https://github.com/zoccoler/)
 
