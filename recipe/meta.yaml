@@ -25,7 +25,7 @@ requirements:
     # - joblib  # not imported
     - magicgui
     - matplotlib-base
-    - napari
+    - napari >=0.4.19
     - napari-plugin-engine >=0.1.4
     - napari-skimage-regionprops >=0.3.1
     - napari-tools-menu
