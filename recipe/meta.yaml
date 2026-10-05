@@ -17,26 +17,20 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.11
   run:
-    - cython >=0.27,<3  # hdbscan 0.8.33 has requirement cython<3,>=0.27
-    - dask-core
-    - hdbscan
-    # - joblib  # not imported
+    - biaplotter >=0.3.1
+    - imagecodecs
     - magicgui
-    - matplotlib-base
-    - napari >=0.4.19
-    - napari-plugin-engine >=0.1.4
-    - napari-skimage-regionprops >=0.3.1
-    - napari-tools-menu
-    - numpy >=1.21,<=1.23.5
+    - napari >=0.7.0
+    - npe2
+    - numpy
     - pandas
-    - python >=3.7
+    - python >=3.11
     - qtpy
     - scikit-image
     - scikit-learn
     - scipy
-    - superqt
     - umap-learn
 
 test:
